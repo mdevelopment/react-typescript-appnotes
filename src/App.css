@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Magra&family=Roboto:ital@1&display=swap');
+.App {
+    background-color: #6a94e8;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;
+    padding-top: 50px;
+    font-size: calc(10px + 2vmin);*/
+    font-family: 'Magra';
+    color: white;
+}
+
+.heading {
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.App-link {
+    color: #fb61c0;
+}
